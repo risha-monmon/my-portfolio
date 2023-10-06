@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+    <script src="https://kit.fontawesome.com/533d8b6795.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/R.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Designer</p>
+                <h2> Assalamualaikum, I'm<br><span>Risha Monmon Shetol</span> .</h2>
+            </div>
+        </div>
+    </div>
+    <!-- about  -->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/bg_phone.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1> 
+                    <br>
+                    <p> I'm completed my bachelor degree on Computer Science & Engineering in Mymensingh Engineering College.
+                       Specially I have some knowledge in Web Developing like CSS,HTML, JavaScript,MERN,React JS and some
+                       programming language like C, Python,OOP. Paralley, I have potential of event organising 
+                       and date analysis too.I can work under pressure and quick learner.  </p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('expirences')"> Expirences </p>
+                        <p class="tab-links" onclick="opentab('education')"> Education </p>
+                       </div>
+                       
+                       <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                            <li><span>Web Development</span><br> Web app Development</li>
+                            <li><span>App Development</span><br> Building Android App</li>
+                            <li><span>Marketing</span><br> Social Media Marketing</li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="expirences">
+                         <ul>
+                            <li><span>In undergraduate time</span><br> Sentiment Analysis with Machine Learning</li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                         <ul>
+                            <li><span>2015</span><br> SSC from Ideal Residential School & College</li>
+                            <li><span>2017</span><br> HSC from Brahmanbaria Govt College</li>
+                            <li><span>2021</span><br> B.Sc in CSE from Mymensingh Engineering College</li>
+
+                         </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- services  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div id="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                 <p> I have done some  webside like amazon, healthcare </p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p> I have done some  webside like ToDo app</p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-ranking-star"></i>
+                <h2>Social Media Marketing</h2>
+                 <p> I'm doing Social Media Marketing by facebook,instagram</p>
+                 <a href="#"> Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3> Webside</h3>
+                    <p>webside description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3> Social Media App</h3>
+                    <p>app description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3> Social Media Marketing</h3>
+                    <p>Social Media Marketing Description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a herf="#" class="btn">See More</a>
+
+    </div>
+</div>
+<!-- contact  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> rishamonmon@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 01931748436</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/raisa.munmun.73"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/risha-monmon-shetol-mec03"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-solid fa-house-laptop"></i></a>
+                    <a href="https://www.instagram.com/raisamunmun"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn2"> Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="thanks">Thank You<i class="fa-solid fa-heart"></i></div>
+</div>
+
+    <script src="./index.js">
+
+    </script>
+</body>
+</html>
