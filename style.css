@@ -421,8 +421,9 @@ nav .fa-solid{
 
 } 
   
-
-
-
-
-
+#msg{
+    color: #ababab;
+    margin-top: 10px;
+    display: block;
+    margin-left:-135px ;
+}
